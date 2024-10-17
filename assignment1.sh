@@ -15,8 +15,21 @@ mycpu=$(sudo lshw -C cpu | grep -i product | awk -F: '{print $2}')
 mycpuSpeed=$(sudo dmesg | grep 'MHz' | head -n 1)
 
 myRAM=$(grep MemTotal /proc/meminfo | awk '{print $2/1024 " MB"}')
+myDisks=$(lsblk -o NAME,MODEL,SIZE,TYPE | grep -E 'disk|rom' | awk '{print $1, $2, $3}' | paste -sd ',')
+myVideoCard=$(lspci | grep -E 'VGA|3D|Display')
+myFDQN=$(hostname --fqdn)
+myHostAddress=$(host $(hostname))
+myGatewayIP=$(ip route | grep default | awk '{print $1, $2,  $3}')
+myDNS=$(nmcli dev show | grep 'IP4.DNS' | awk '{print $1, $2}')
+myInterfaceName=$(sudo lshw -class network | grep -E 'logical name|product|vendor')
+myCidrAddress=$(ip -o -f inet addr show | awk '/scope global/ {print $4}')
+myCurrentUsers=$(users | tr ' ' ',')
 myhardDrive=$(df -h | grep '^/' | awk '{print $1, $2}')
-
+myProcessCount=$(ps -e | wc -l)
+myLoadAverages=$(uptime | awk '{print $6, $7, $8,$9,$10}')
+myDataAllocation=$(free -h)
+myListeningPorts=$(sudo ss -tuln)
+myUFWRules=$(sudo ufw status numbered)
 # grabbing the distro name and version from /etc/os-release for easy access. #
 #If a distro doesn't have this file, it won't work :( #
 source /etc/os-release
@@ -38,27 +51,30 @@ Hardware Information
 cpu:$mycpu
 Speed: $mycpuSpeed
 Ram: $myRAM
-Disk(s): MAKE AND MODEL AND SIZE FOR ALL INSTALLED DISKS
-Video: MAKE AND MODEL OF VIDEO CARD
+Disk(s): $myDisks
+Video: $myVideoCard
 
 Network Information
 -------------------
-FQDN: FQDN
-Host Address: IP ADDRESS FOR THE HOSTNAME
-Gateway IP: GATEWAY ADDRESS
-DNS Server: IP OF DNS SERVER
+FQDN: $myFDQN
+Host Address: $myHostAddress
+Gateway IP: $myGatewayIP
+DNS Server: $myDNS
 
-InterfaceName: MAKE AND MODEL OF NETWORK CARD
-IP Address: IP Address in CIDR format
+InterfaceName:
+$myInterfaceName
+IP Address: $myCidrAddress
 
 System Status
 -------------
-Users Logged In: USER,USER,USER...
+Users Logged In: $myCurrentUsers
 Disk Space: $myhardDrive
-Process Count: N
-Load Averages: N, N, N
-Memory Allocation: DATA FROM FREE
-Listening Network Ports: N, N, N, ...
-UFW Rules: DATA FROM UFW SHOW
+Process Count: $myProcessCount
+Load Averages: $myLoadAverages
+Memory Allocation:
+$myDataAllocation
+Listening Network Ports: $myListeningPorts
+UFW Rules:
+$myUFWRules
 
 EOF
