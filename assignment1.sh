@@ -10,6 +10,7 @@ currentdatetime="$(date)"
 myhost="$HOSTNAME"
 systemuptime=$(uptime -p)
 mycpu=$(sudo lshw -C cpu | grep -i product | awk -F: '{print $2}')
+myRAM=$(grep MemTotal /proc/meminfo | awk '{print $2/1024 " MB"}')
 
 # grabbing the distro name and version from /etc/os-release for easy access. #
 #If a distro doesn't have this file, it won't work :( #
@@ -31,7 +32,7 @@ Hardware Information
 --------------------
 cpu:$mycpu
 Speed: CURRENT AND MAXIMUM CPU SPEED
-Ram: SIZE OF INSTALLED RAM
+Ram: $myRAM
 Disk(s): MAKE AND MODEL AND SIZE FOR ALL INSTALLED DISKS
 Video: MAKE AND MODEL OF VIDEO CARD
 
