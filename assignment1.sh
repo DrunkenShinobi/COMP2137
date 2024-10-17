@@ -10,7 +10,12 @@ currentdatetime="$(date)"
 myhost="$HOSTNAME"
 systemuptime=$(uptime -p)
 mycpu=$(sudo lshw -C cpu | grep -i product | awk -F: '{print $2}')
+
+# this command doesn't seem to be perfect, but it's the closest I was able to get currently. #
+mycpuSpeed=$(sudo dmesg | grep 'MHz' | head -n 1)
+
 myRAM=$(grep MemTotal /proc/meminfo | awk '{print $2/1024 " MB"}')
+myhardDrive=$(df -h | grep '^/' | awk '{print $1, $2}')
 
 # grabbing the distro name and version from /etc/os-release for easy access. #
 #If a distro doesn't have this file, it won't work :( #
@@ -31,7 +36,7 @@ Uptime: $systemuptime
 Hardware Information
 --------------------
 cpu:$mycpu
-Speed: CURRENT AND MAXIMUM CPU SPEED
+Speed: $mycpuSpeed
 Ram: $myRAM
 Disk(s): MAKE AND MODEL AND SIZE FOR ALL INSTALLED DISKS
 Video: MAKE AND MODEL OF VIDEO CARD
@@ -49,7 +54,7 @@ IP Address: IP Address in CIDR format
 System Status
 -------------
 Users Logged In: USER,USER,USER...
-Disk Space: FREE SPACE FOR LOCAL FILESYSTEMS IN FORMAT: /MOUNTPOINT N
+Disk Space: $myhardDrive
 Process Count: N
 Load Averages: N, N, N
 Memory Allocation: DATA FROM FREE
