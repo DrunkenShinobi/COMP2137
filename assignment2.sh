@@ -1,22 +1,24 @@
 #!/bin/bash
 
 # Define those variables #
-NETPLAN_CONFIG="/etc/netplan/01-netcfg.yaml"
-HOSTS_FILE="/etc/hosts"
-TARGET_IP="192.168.16.21"
-TARGET_NETMASK="24"
-TARGET_HOSTNAME="server1"
-USERS=("dennis" "aubrey" "captain" "snibbles" "brownie" "scooter" "sandy" "perrier" "cindy" "tiger" "yoda")
-DENNIS_SSH_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG4rT3vTt99Ox5kndS4HmgTrKBT8SKzhK4rhGkEVGlCI student@generic-vm"
+netplanConfig="/etc/netplan/01-netcfg.yaml"
+hostsFile="/etc/hosts"
+targetIP="192.168.16.21"
+targetSubnet="24"
+targetHostname="server1"
+users=("dennis" "aubrey" "captain" "snibbles" "brownie" "scooter" "sandy" "perrier" "cindy" "tiger" "yoda")
+dennisSSHKey="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG4rT3vTt99Ox5kndS4HmgTrKBT8SKzhK4rhGkEVGlCI student@generic-vm"
 
 # Function to update netplan configuration #
 update_netplan() {
     echo "Updating netplan configuration..."
-    if grep -q "$TARGET_IP/$TARGET_NETMASK" "$NETPLAN_CONFIG"; then
+    if grep -q "$targetIP/$targetSubnet
+" "$netplanConfig"; then
         echo "Netplan configuration already set..."
     else
         echo "Setting your new netplan configuration..."
-        sudo sed -i "/addresses:/a \ \ \ \ \ \ \ \ - $TARGET_IP/$TARGET_NETMASK" "$NETPLAN_CONFIG"
+        sudo sed -i "/addresses:/a \ \ \ \ \ \ \ \ - $targetIP/$targetSubnet
+    " "$netplanConfig"
         sudo netplan apply
         echo "Netplan configuration has been updated!"
     fi
@@ -25,12 +27,12 @@ update_netplan() {
 # Function to update /etc/hosts #
 update_hosts() {
     echo "Updating /etc/hosts..."
-    if grep -q "$TARGET_IP $TARGET_HOSTNAME" "$HOSTS_FILE"; then
+    if grep -q "$targetIP $targetHostname" "$hostsFile"; then
         echo "It seems like /etc/hosts already has the correct entry, no need to update."
     else
         echo "Setting the new /etc/hosts entry..."
-        sudo sed -i "/$TARGET_HOSTNAME/d" "$HOSTS_FILE"
-        echo "$TARGET_IP $TARGET_HOSTNAME" | sudo tee -a "$HOSTS_FILE"
+        sudo sed -i "/$targetHostname/d" "$hostsFile"
+        echo "$targetIP $targetHostname" | sudo tee -a "$hostsFile"
         echo "/etc/hosts has been updated!"
     fi
 }
@@ -65,7 +67,7 @@ install_squid() {
 
 # Function to create user accounts #
 create_users() {
-    for user in "${USERS[@]}"; do
+    for user in "${users[@]}"; do
         echo "Creating new user $user..."
         if id "$user" &>/dev/null; then
             echo "User $user already exists!"
@@ -84,7 +86,7 @@ create_users() {
 
         # Special case for user dennis #
         if [ "$user" == "dennis" ]; then
-            echo "$DENNIS_SSH_KEY" | sudo tee -a "/home/$user/.ssh/authorized_keys" &>/dev/null
+            echo "$dennisSSHKey" | sudo tee -a "/home/$user/.ssh/authorized_keys" &>/dev/null
             sudo usermod -aG sudo "$user"
         fi
 
@@ -100,4 +102,3 @@ install_squid
 create_users
 
 echo "Woohoo! Configuration completed!"
-
