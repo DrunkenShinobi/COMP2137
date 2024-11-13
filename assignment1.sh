@@ -74,6 +74,7 @@ Load Averages: $myLoadAverages
 Memory Allocation:
 $myDataAllocation
 Listening Network Ports: $myListeningPorts
+
 UFW Rules:
 $myUFWRules
 
