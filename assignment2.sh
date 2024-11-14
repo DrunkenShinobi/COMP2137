@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script is for our assignment 2, System Modification. #
+
+
 # Define those variables #
 netplanConfig="/etc/netplan/01-netcfg.yaml"
 hostsFile="/etc/hosts"
