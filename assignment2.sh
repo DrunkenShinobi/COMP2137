@@ -75,8 +75,17 @@ create_users() {
         fi
 
         # Generate SSH keys if they are not already present #
-        sudo -u "$user" ssh-keygen -t rsa -b 2048 -f "/home/$user/.ssh/id_rsa" -N "" &>/dev/null
-        sudo -u "$user" ssh-keygen -t ed25519 -f "/home/$user/.ssh/id_ed25519" -N "" &>/dev/null
+        if [ ! -f "/home/$user/.ssh/id_rsa" ]; then
+            sudo -u "$user" ssh-keygen -t rsa -b 2048 -f "/home/$user/.ssh/id_rsa" -N "" &>/dev/null
+        else
+            echo "RSA key for $user already exists!"
+        fi
+
+        if [ ! -f "/home/$user/.ssh/id_ed25519" ]; then
+            sudo -u "$user" ssh-keygen -t ed25519 -f "/home/$user/.ssh/id_ed25519" -N "" &>/dev/null
+        else
+            echo "ED25519 key for $user already exists!"
+        fi
 
         # Add public keys to authorized_keys as needed #
         cat "/home/$user/.ssh/id_rsa.pub" | sudo tee -a "/home/$user/.ssh/authorized_keys" &>/dev/null
@@ -91,6 +100,7 @@ create_users() {
         echo "User $user configured with SSH keys."
     done
 }
+
 
 # Run the functions #
 update_netplan
