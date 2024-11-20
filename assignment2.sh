@@ -101,7 +101,6 @@ create_users() {
     done
 }
 
-
 # Run the functions #
 update_netplan
 update_hosts
