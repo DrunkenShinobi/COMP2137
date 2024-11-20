@@ -1,8 +1,0 @@
-WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
-dpkg-preconfigure: unable to re-open stdin: No such file or directory
-/home/steven/makecontainers.sh: line 347: /home/steven/.ssh/known_hosts: Permission denied
-do_known_hosts: hostkeys_foreach: Permission denied
-Failed to add the host to the list of known hosts (/home/steven/.ssh/known_hosts).
-Failed to add the host to the list of known hosts (/home/steven/.ssh/known_hosts).
-/home/remoteadmin/assignment2.sh: line 7: syntax error near unexpected token `newline'
-/home/remoteadmin/assignment2.sh: line 7: `<!DOCTYPE html>'
