@@ -1,6 +1,6 @@
 ---Host/Student info----
 
-Running on Wed Nov 20 11:41:48 AM EST 2024
+Running on Wed Nov 20 12:33:10 PM EST 2024
 Run by steven - () on host
  Static hostname: generic-vm
       Machine ID: d5a27f1ebbfb422b9af6d6254df7512b
@@ -19,8 +19,8 @@ Network mgmt deleted
 Network lan created
 Network mgmt created
 Launching openwrt
-Retrieving image: Unpack: 100% (1.33GB/s)                                          Retrieving image: Unpack: 100% (1.33GB/s)                                          Launching server1
-Retrieving image: Unpack: 100% (2.84GB/s)                                          Pushing /home/steven/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (151.15MB/s)                                                                                                     Waiting for server1 restart
+Retrieving image: Unpack: 100% (1.81GB/s)                                          Retrieving image: Unpack: 100% (1.81GB/s)                                          Launching server1
+Retrieving image: Unpack: 100% (1.53GB/s)                                          Retrieving image: Unpack: 100% (1.53GB/s)                                          Pushing /home/steven/.ssh/id_ed25519.pub to /home/remoteadmin/.ssh/id_ed25519.pub: 100% (258.49MB/s)                                                                                                     Waiting for server1 restart
 ---Retrieving assignment2.sh script---
 Retrieved assignment2 script
 Copied assignment2.sh script to server1
@@ -34,25 +34,25 @@ Setting the new /etc/hosts entry...
 /etc/hosts has been updated!
 Installing Apache2...
 Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
-Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
-Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
-Get:4 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1,952 kB]
-Get:5 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [312 kB]
-Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2,174 kB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2,608 kB]
-Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [371 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2,677 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [451 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [956 kB]
-Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [203 kB]
-Get:13 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.6 kB]
-Get:14 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [8,260 B]
-Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [464 kB]
-Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,177 kB]
-Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [287 kB]
-Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.6 kB]
-Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [11.4 kB]
-Fetched 14.0 MB in 6s (2,498 kB/s)
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2,174 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1,952 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [371 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2,677 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [464 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,177 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [287 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.6 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [11.4 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [312 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2,608 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [451 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [956 kB]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [203 kB]
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.6 kB]
+Get:19 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [8,260 B]
+Fetched 14.0 MB in 6s (2,424 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -113,7 +113,7 @@ Get:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5buil
 Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.18+dfsg-0ubuntu0.22.04.2 [15.9 kB]
 Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules amd64 2.1.27+dfsg2-3ubuntu1.2 [68.8 kB]
 Get:33 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
-Fetched 12.0 MB in 1s (10.6 MB/s)
+Fetched 12.0 MB in 1s (10.7 MB/s)
 Selecting previously unselected package perl-modules-5.34.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 19255 files and directories currently installed.)
 Preparing to unpack .../00-perl-modules-5.34_5.34.0-3ubuntu1.3_all.deb ...
@@ -282,8 +282,8 @@ Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
 Apache2 has been installed and is now running.
 Installing Squid...
 Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
-Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
-Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://security.ubuntu.com/ubuntu jammy-security InRelease
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -309,379 +309,3 @@ Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 squid-langpack all 20200
 Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 squid-common all 5.9-0ubuntu0.22.04.2 [204 kB]
 Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdbi-perl amd64 1.643-3build3 [741 kB]
 Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 squid amd64 5.9-0ubuntu0.22.04.2 [2,678 kB]
-Fetched 3,955 kB in 1s (7,433 kB/s)
-Selecting previously unselected package libecap3:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22181 files and directories currently installed.)
-Preparing to unpack .../0-libecap3_1.0.1-3.2ubuntu4_amd64.deb ...
-Unpacking libecap3:amd64 (1.0.1-3.2ubuntu4) ...
-Selecting previously unselected package libltdl7:amd64.
-Preparing to unpack .../1-libltdl7_2.4.6-15build2_amd64.deb ...
-Unpacking libltdl7:amd64 (2.4.6-15build2) ...
-Selecting previously unselected package libnfnetlink0:amd64.
-Preparing to unpack .../2-libnfnetlink0_1.0.1-3build3_amd64.deb ...
-Unpacking libnfnetlink0:amd64 (1.0.1-3build3) ...
-Selecting previously unselected package libnetfilter-conntrack3:amd64.
-Preparing to unpack .../3-libnetfilter-conntrack3_1.0.9-1_amd64.deb ...
-Unpacking libnetfilter-conntrack3:amd64 (1.0.9-1) ...
-Selecting previously unselected package libtdb1:amd64.
-Preparing to unpack .../4-libtdb1_1.4.5-2build1_amd64.deb ...
-Unpacking libtdb1:amd64 (1.4.5-2build1) ...
-Selecting previously unselected package squid-langpack.
-Preparing to unpack .../5-squid-langpack_20200403-1_all.deb ...
-Unpacking squid-langpack (20200403-1) ...
-Selecting previously unselected package squid-common.
-Preparing to unpack .../6-squid-common_5.9-0ubuntu0.22.04.2_all.deb ...
-Unpacking squid-common (5.9-0ubuntu0.22.04.2) ...
-Selecting previously unselected package libdbi-perl:amd64.
-Preparing to unpack .../7-libdbi-perl_1.643-3build3_amd64.deb ...
-Unpacking libdbi-perl:amd64 (1.643-3build3) ...
-Selecting previously unselected package squid.
-Preparing to unpack .../8-squid_5.9-0ubuntu0.22.04.2_amd64.deb ...
-proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
-Unpacking squid (5.9-0ubuntu0.22.04.2) ...
-Setting up libtdb1:amd64 (1.4.5-2build1) ...
-Setting up squid-langpack (20200403-1) ...
-Setting up libltdl7:amd64 (2.4.6-15build2) ...
-Setting up libnfnetlink0:amd64 (1.0.1-3build3) ...
-Setting up libdbi-perl:amd64 (1.643-3build3) ...
-Setting up libecap3:amd64 (1.0.1-3.2ubuntu4) ...
-Setting up squid-common (5.9-0ubuntu0.22.04.2) ...
-Setting up libnetfilter-conntrack3:amd64 (1.0.9-1) ...
-Setting up squid (5.9-0ubuntu0.22.04.2) ...
-Setcap worked! /usr/lib/squid/pinger is not suid!
-Created symlink /etc/systemd/system/multi-user.target.wants/squid.service → /lib/systemd/system/squid.service.
-Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
-Squid has been installed and is now running!
-Creating new user dennis...
-New user dennis has been created!
-User dennis configured with SSH keys.
-Creating new user aubrey...
-New user aubrey has been created!
-User aubrey configured with SSH keys.
-Creating new user captain...
-New user captain has been created!
-User captain configured with SSH keys.
-Creating new user snibbles...
-New user snibbles has been created!
-User snibbles configured with SSH keys.
-Creating new user brownie...
-New user brownie has been created!
-User brownie configured with SSH keys.
-Creating new user scooter...
-New user scooter has been created!
-User scooter configured with SSH keys.
-Creating new user sandy...
-New user sandy has been created!
-User sandy configured with SSH keys.
-Creating new user perrier...
-New user perrier has been created!
-User perrier configured with SSH keys.
-Creating new user cindy...
-New user cindy has been created!
-User cindy configured with SSH keys.
-Creating new user tiger...
-New user tiger has been created!
-User tiger configured with SSH keys.
-Creating new user yoda...
-New user yoda has been created!
-User yoda configured with SSH keys.
-Woohoo! Configuration completed!
--------------------------
-
---network--------
-/etc/hosts
------------------------
-127.0.0.1	localhost
-::1		localhost ip6-localhost ip6-loopback
-ff02::1		ip6-allnodes
-ff02::2		ip6-allrouters
-
-
-192.168.16.2 openwrt
-172.16.1.2 openwrt-mgmt
-
-192.168.16.21 server1
--------------
-/etc/netplan/10-lxc.yaml
------------------------
-network:
-    version: 2
-    ethernets:
-        eth0:
-            addresses: [192.168.16.241/24]
-            routes:
-              - to: default
-                via: 192.168.16.2
-            nameservers:
-                addresses: [192.168.16.2]
-                search: [home.arpa, localdomain]
-        eth1:
-            addresses: [172.16.1.241/24]
--------------
----applying netplan---
----ip a---------------
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-    inet 127.0.0.1/8 scope host lo
-       valid_lft forever preferred_lft forever
-    inet6 ::1/128 scope host 
-       valid_lft forever preferred_lft forever
-87: eth0@if88: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
-    link/ether 00:16:3e:9c:0b:78 brd ff:ff:ff:ff:ff:ff link-netnsid 0
-    inet 192.168.16.241/24 brd 192.168.16.255 scope global eth0
-       valid_lft forever preferred_lft forever
-    inet6 fe80::216:3eff:fe9c:b78/64 scope link 
-       valid_lft forever preferred_lft forever
-89: eth1@if90: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
-    link/ether 00:16:3e:c2:8b:a2 brd ff:ff:ff:ff:ff:ff link-netnsid 0
-    inet 172.16.1.241/24 brd 172.16.1.255 scope global eth1
-       valid_lft forever preferred_lft forever
-    inet6 fe80::216:3eff:fec2:8ba2/64 scope link 
-       valid_lft forever preferred_lft forever
---ip r----------------
-default via 192.168.16.2 dev eth0 proto static 
-172.16.1.0/24 dev eth1 proto kernel scope link src 172.16.1.241 
-192.168.16.0/24 dev eth0 proto kernel scope link src 192.168.16.241 
-----------------------
-
----services status------
-● apache2.service - The Apache HTTP Server
-     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
-    Drop-In: /run/systemd/system/service.d
-             └─zzz-lxc-service.conf
-     Active: active (running) since Wed 2024-11-20 16:44:11 UTC; 40s ago
-       Docs: https://httpd.apache.org/docs/2.4/
-   Main PID: 1599 (apache2)
-      Tasks: 55 (limit: 4615)
-     Memory: 5.3M
-        CPU: 114ms
-     CGroup: /system.slice/apache2.service
-             ├─1599 /usr/sbin/apache2 -k start
-             ├─1600 /usr/sbin/apache2 -k start
-             └─1601 /usr/sbin/apache2 -k start
-
-Nov 20 16:44:10 server1 systemd[1]: Starting The Apache HTTP Server...
-Nov 20 16:44:11 server1 apachectl[1598]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.21. Set the 'ServerName' directive globally to suppress this message
-Nov 20 16:44:11 server1 systemd[1]: Started The Apache HTTP Server.
-
-● squid.service - Squid Web Proxy Server
-     Loaded: loaded (/lib/systemd/system/squid.service; enabled; vendor preset: enabled)
-    Drop-In: /run/systemd/system/service.d
-             └─zzz-lxc-service.conf
-     Active: active (running) since Wed 2024-11-20 16:44:39 UTC; 12s ago
-       Docs: man:squid(8)
-   Main PID: 3170 (squid)
-      Tasks: 4 (limit: 4615)
-     Memory: 16.4M
-        CPU: 314ms
-     CGroup: /system.slice/squid.service
-             ├─3170 /usr/sbin/squid --foreground -sYC
-             ├─3172 "(squid-1)" --kid squid-1 --foreground -sYC
-             ├─3173 "(logfile-daemon)" /var/log/squid/access.log
-             └─3174 "(pinger)"
-
-Nov 20 16:44:39 server1 squid[3172]: Using Least Load store dir selection
-Nov 20 16:44:39 server1 squid[3172]: Set Current Directory to /var/spool/squid
-Nov 20 16:44:39 server1 squid[3172]: Finished loading MIME types and icons.
-Nov 20 16:44:39 server1 squid[3172]: HTCP Disabled.
-Nov 20 16:44:39 server1 squid[3172]: Pinger socket opened on FD 14
-Nov 20 16:44:39 server1 squid[3172]: Squid plugin modules loaded: 0
-Nov 20 16:44:39 server1 squid[3172]: Adaptation support is off.
-Nov 20 16:44:39 server1 squid[3172]: Accepting HTTP Socket connections at conn3 local=[::]:3128 remote=[::] FD 12 flags=9
-Nov 20 16:44:39 server1 systemd[1]: Started Squid Web Proxy Server.
-Nov 20 16:44:40 server1 squid[3172]: storeLateRelease: released 0 objects
-------------------------
-
----ufw show added-------
----ufw show status------
-------------------------
-
----getents--------------------
-aubrey:x:1002:1003::/home/aubrey:/bin/bash
-captain:x:1003:1004::/home/captain:/bin/bash
-snibbles:x:1004:1005::/home/snibbles:/bin/bash
-brownie:x:1005:1006::/home/brownie:/bin/bash
-scooter:x:1006:1007::/home/scooter:/bin/bash
-sandy:x:1007:1008::/home/sandy:/bin/bash
-perrier:x:1008:1009::/home/perrier:/bin/bash
-cindy:x:1009:1010::/home/cindy:/bin/bash
-tiger:x:1010:1011::/home/tiger:/bin/bash
-yoda:x:1011:1012::/home/yoda:/bin/bash
-dennis:x:1001:1002::/home/dennis:/bin/bash
-sudo:x:27:ubuntu,dennis
----user home dir contents-----
-  1187316      4 -rw-r--r--   1 ubuntu   ubuntu        220 Jan  6  2022 /home/ubuntu/.bash_logout
-  1187318      4 -rw-r--r--   1 ubuntu   ubuntu        807 Jan  6  2022 /home/ubuntu/.profile
-  1187317      4 -rw-r--r--   1 ubuntu   ubuntu       3771 Jan  6  2022 /home/ubuntu/.bashrc
-  1215419      4 -rw-r--r--   1 snibbles snibbles      220 Jan  6  2022 /home/snibbles/.bash_logout
-  1215421      4 -rw-r--r--   1 snibbles snibbles      807 Jan  6  2022 /home/snibbles/.profile
-  1215424      4 -rw-r--r--   1 snibbles snibbles     3771 Jan  6  2022 /home/snibbles/.bashrc
-  1212882      4 -rw-------   1 snibbles snibbles     1823 Nov 20 16:44 /home/snibbles/.ssh/id_rsa
-  1215087      4 -rw-------   1 snibbles snibbles      411 Nov 20 16:44 /home/snibbles/.ssh/id_ed25519
-  1215086      4 -rw-r--r--   1 snibbles snibbles      398 Nov 20 16:44 /home/snibbles/.ssh/id_rsa.pub
-  1215159      4 -rw-r--r--   1 root     root          496 Nov 20 16:44 /home/snibbles/.ssh/authorized_keys
-  1215089      4 -rw-r--r--   1 snibbles snibbles       98 Nov 20 16:44 /home/snibbles/.ssh/id_ed25519.pub
-  1206422      4 -rwxr-xr-x   1 root     remoteadmin     3461 Nov 20 16:43 /home/remoteadmin/assignment2.sh
-  1206448      4 -rw-r--r--   1 root     remoteadmin      220 Jan  6  2022 /home/remoteadmin/.bash_logout
-  1206421      0 -rw-r--r--   1 root     root               0 Nov 20 16:43 /home/remoteadmin/.cache/motd.legal-displayed
-  1206450      4 -rw-r--r--   1 root     remoteadmin      807 Jan  6  2022 /home/remoteadmin/.profile
-  1206451      4 -rw-r--r--   1 root     remoteadmin     3771 Jan  6  2022 /home/remoteadmin/.bashrc
-  1205101      4 -rw-------   1 root     root              99 Nov 20 16:42 /home/remoteadmin/.ssh/authorized_keys
-  1205097      4 -rw-r--r--   1 root     remoteadmin       99 Nov 20 16:42 /home/remoteadmin/.ssh/id_ed25519.pub
-  1215452      4 -rw-r--r--   1 sandy    sandy            220 Jan  6  2022 /home/sandy/.bash_logout
-  1215453      4 -rw-r--r--   1 sandy    sandy            807 Jan  6  2022 /home/sandy/.profile
-  1215454      4 -rw-r--r--   1 sandy    sandy           3771 Jan  6  2022 /home/sandy/.bashrc
-  1215440      4 -rw-------   1 sandy    sandy           1823 Nov 20 16:44 /home/sandy/.ssh/id_rsa
-  1215447      4 -rw-------   1 sandy    sandy            399 Nov 20 16:44 /home/sandy/.ssh/id_ed25519
-  1215446      4 -rw-r--r--   1 sandy    sandy            395 Nov 20 16:44 /home/sandy/.ssh/id_rsa.pub
-  1215449      4 -rw-r--r--   1 root     root             490 Nov 20 16:44 /home/sandy/.ssh/authorized_keys
-  1215448      4 -rw-r--r--   1 sandy    sandy             95 Nov 20 16:44 /home/sandy/.ssh/id_ed25519.pub
-  1215442      4 -rw-r--r--   1 scooter  scooter          220 Jan  6  2022 /home/scooter/.bash_logout
-  1215443      4 -rw-r--r--   1 scooter  scooter          807 Jan  6  2022 /home/scooter/.profile
-  1215444      4 -rw-r--r--   1 scooter  scooter         3771 Jan  6  2022 /home/scooter/.bashrc
-  1215430      4 -rw-------   1 scooter  scooter         1823 Nov 20 16:44 /home/scooter/.ssh/id_rsa
-  1215437      4 -rw-------   1 scooter  scooter          411 Nov 20 16:44 /home/scooter/.ssh/id_ed25519
-  1215436      4 -rw-r--r--   1 scooter  scooter          397 Nov 20 16:44 /home/scooter/.ssh/id_rsa.pub
-  1215439      4 -rw-r--r--   1 root     root             494 Nov 20 16:44 /home/scooter/.ssh/authorized_keys
-  1215438      4 -rw-r--r--   1 scooter  scooter           97 Nov 20 16:44 /home/scooter/.ssh/id_ed25519.pub
-  1215492      4 -rw-r--r--   1 yoda     yoda             220 Jan  6  2022 /home/yoda/.bash_logout
-  1215493      4 -rw-r--r--   1 yoda     yoda             807 Jan  6  2022 /home/yoda/.profile
-  1215494      4 -rw-r--r--   1 yoda     yoda            3771 Jan  6  2022 /home/yoda/.bashrc
-  1215480      4 -rw-------   1 yoda     yoda            1823 Nov 20 16:44 /home/yoda/.ssh/id_rsa
-  1215487      4 -rw-------   1 yoda     yoda             399 Nov 20 16:44 /home/yoda/.ssh/id_ed25519
-  1215486      4 -rw-r--r--   1 yoda     yoda             394 Nov 20 16:44 /home/yoda/.ssh/id_rsa.pub
-  1215489      4 -rw-r--r--   1 root     root             488 Nov 20 16:44 /home/yoda/.ssh/authorized_keys
-  1215488      4 -rw-r--r--   1 yoda     yoda              94 Nov 20 16:44 /home/yoda/.ssh/id_ed25519.pub
-  1215482      4 -rw-r--r--   1 tiger    tiger            220 Jan  6  2022 /home/tiger/.bash_logout
-  1215483      4 -rw-r--r--   1 tiger    tiger            807 Jan  6  2022 /home/tiger/.profile
-  1215484      4 -rw-r--r--   1 tiger    tiger           3771 Jan  6  2022 /home/tiger/.bashrc
-  1215470      4 -rw-------   1 tiger    tiger           1823 Nov 20 16:44 /home/tiger/.ssh/id_rsa
-  1215477      4 -rw-------   1 tiger    tiger            399 Nov 20 16:44 /home/tiger/.ssh/id_ed25519
-  1215476      4 -rw-r--r--   1 tiger    tiger            395 Nov 20 16:44 /home/tiger/.ssh/id_rsa.pub
-  1215479      4 -rw-r--r--   1 root     root             490 Nov 20 16:44 /home/tiger/.ssh/authorized_keys
-  1215478      4 -rw-r--r--   1 tiger    tiger             95 Nov 20 16:44 /home/tiger/.ssh/id_ed25519.pub
-  1212822      4 -rw-r--r--   1 dennis   dennis           220 Jan  6  2022 /home/dennis/.bash_logout
-  1212823      4 -rw-r--r--   1 dennis   dennis           807 Jan  6  2022 /home/dennis/.profile
-  1212824      4 -rw-r--r--   1 dennis   dennis          3771 Jan  6  2022 /home/dennis/.bashrc
-  1205095      4 -rw-------   1 dennis   dennis          1823 Nov 20 16:44 /home/dennis/.ssh/id_rsa
-  1209570      4 -rw-------   1 dennis   dennis           411 Nov 20 16:44 /home/dennis/.ssh/id_ed25519
-  1206488      4 -rw-r--r--   1 dennis   dennis           396 Nov 20 16:44 /home/dennis/.ssh/id_rsa.pub
-  1209621      4 -rw-r--r--   1 root     root             592 Nov 20 16:44 /home/dennis/.ssh/authorized_keys
-  1209606      4 -rw-r--r--   1 dennis   dennis            96 Nov 20 16:44 /home/dennis/.ssh/id_ed25519.pub
-  1215432      4 -rw-r--r--   1 brownie  brownie          220 Jan  6  2022 /home/brownie/.bash_logout
-  1215433      4 -rw-r--r--   1 brownie  brownie          807 Jan  6  2022 /home/brownie/.profile
-  1215434      4 -rw-r--r--   1 brownie  brownie         3771 Jan  6  2022 /home/brownie/.bashrc
-  1215160      4 -rw-------   1 brownie  brownie         1823 Nov 20 16:44 /home/brownie/.ssh/id_rsa
-  1215427      4 -rw-------   1 brownie  brownie          411 Nov 20 16:44 /home/brownie/.ssh/id_ed25519
-  1215426      4 -rw-r--r--   1 brownie  brownie          397 Nov 20 16:44 /home/brownie/.ssh/id_rsa.pub
-  1215429      4 -rw-r--r--   1 root     root             494 Nov 20 16:44 /home/brownie/.ssh/authorized_keys
-  1215428      4 -rw-r--r--   1 brownie  brownie           97 Nov 20 16:44 /home/brownie/.ssh/id_ed25519.pub
-  1215472      4 -rw-r--r--   1 cindy    cindy            220 Jan  6  2022 /home/cindy/.bash_logout
-  1215473      4 -rw-r--r--   1 cindy    cindy            807 Jan  6  2022 /home/cindy/.profile
-  1215474      4 -rw-r--r--   1 cindy    cindy           3771 Jan  6  2022 /home/cindy/.bashrc
-  1215460      4 -rw-------   1 cindy    cindy           1823 Nov 20 16:44 /home/cindy/.ssh/id_rsa
-  1215467      4 -rw-------   1 cindy    cindy            399 Nov 20 16:44 /home/cindy/.ssh/id_ed25519
-  1215466      4 -rw-r--r--   1 cindy    cindy            395 Nov 20 16:44 /home/cindy/.ssh/id_rsa.pub
-  1215469      4 -rw-r--r--   1 root     root             490 Nov 20 16:44 /home/cindy/.ssh/authorized_keys
-  1215468      4 -rw-r--r--   1 cindy    cindy             95 Nov 20 16:44 /home/cindy/.ssh/id_ed25519.pub
-  1212894      4 -rw-r--r--   1 captain  captain          220 Jan  6  2022 /home/captain/.bash_logout
-  1212895      4 -rw-r--r--   1 captain  captain          807 Jan  6  2022 /home/captain/.profile
-  1212897      4 -rw-r--r--   1 captain  captain         3771 Jan  6  2022 /home/captain/.bashrc
-  1212842      4 -rw-------   1 captain  captain         1823 Nov 20 16:44 /home/captain/.ssh/id_rsa
-  1212869      4 -rw-------   1 captain  captain          411 Nov 20 16:44 /home/captain/.ssh/id_ed25519
-  1212868      4 -rw-r--r--   1 captain  captain          397 Nov 20 16:44 /home/captain/.ssh/id_rsa.pub
-  1212881      4 -rw-r--r--   1 root     root             494 Nov 20 16:44 /home/captain/.ssh/authorized_keys
-  1212874      4 -rw-r--r--   1 captain  captain           97 Nov 20 16:44 /home/captain/.ssh/id_ed25519.pub
-  1215462      4 -rw-r--r--   1 perrier  perrier          220 Jan  6  2022 /home/perrier/.bash_logout
-  1215463      4 -rw-r--r--   1 perrier  perrier          807 Jan  6  2022 /home/perrier/.profile
-  1215464      4 -rw-r--r--   1 perrier  perrier         3771 Jan  6  2022 /home/perrier/.bashrc
-  1215450      4 -rw-------   1 perrier  perrier         1823 Nov 20 16:44 /home/perrier/.ssh/id_rsa
-  1215457      4 -rw-------   1 perrier  perrier          411 Nov 20 16:44 /home/perrier/.ssh/id_ed25519
-  1215456      4 -rw-r--r--   1 perrier  perrier          397 Nov 20 16:44 /home/perrier/.ssh/id_rsa.pub
-  1215459      4 -rw-r--r--   1 root     root             494 Nov 20 16:44 /home/perrier/.ssh/authorized_keys
-  1215458      4 -rw-r--r--   1 perrier  perrier           97 Nov 20 16:44 /home/perrier/.ssh/id_ed25519.pub
-  1212847      4 -rw-r--r--   1 aubrey   aubrey           220 Jan  6  2022 /home/aubrey/.bash_logout
-  1212856      4 -rw-r--r--   1 aubrey   aubrey           807 Jan  6  2022 /home/aubrey/.profile
-  1212857      4 -rw-r--r--   1 aubrey   aubrey          3771 Jan  6  2022 /home/aubrey/.bashrc
-  1211081      4 -rw-------   1 aubrey   aubrey          1823 Nov 20 16:44 /home/aubrey/.ssh/id_rsa
-  1212826      4 -rw-------   1 aubrey   aubrey           411 Nov 20 16:44 /home/aubrey/.ssh/id_ed25519
-  1212818      4 -rw-r--r--   1 aubrey   aubrey           396 Nov 20 16:44 /home/aubrey/.ssh/id_rsa.pub
-  1212828      4 -rw-r--r--   1 root     root             492 Nov 20 16:44 /home/aubrey/.ssh/authorized_keys
-  1212827      4 -rw-r--r--   1 aubrey   aubrey            96 Nov 20 16:44 /home/aubrey/.ssh/id_ed25519.pub
-/home/aubrey/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6Qid2otAfHL6lti7MkBtktvJVaDfLcUEi3+op6Ny1GzOkR2zbYboUdcqV++QHb9FU66sGl2iXdEBUcydp4UPuylf6BVD7I3oQrOPOlxQXuwHeb92UH6JSfhy7c9QdMgi0rrlUjebk/m91bA493E+Cn66g3+7wl/j2wM4OBhKhU9svoCVVh7Qp0mXTPp57bTJ4ccSbtHUeDybpJlTWThEpHPhKA82kj74fn/TCPEXy0Ybg5vuulMUciuxIeT2gStRAephU8tT8QkKkpVeUf/pSI5AL6LAoBztSPWkW9xB5PiTEX9iojhbPw6XApb3e0xJ7cf7EE56Kt2dLIJEND/Up aubrey@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBLtjSB5w3Yt10DivOG9njnNOATQcz3/XOx9p+9pTwnC aubrey@server1
--------------
-/home/brownie/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCr9rCk92nIR9fB6SpbZRVF0hU0FDOZ48lsD9TwRVvwwcohYSMPzXnFUJloDcuE1toINtaupm/FQ6qF7KDxinrenYgjnL8hqgXhkCuKzoMhxn04JoivzfJ0LXsXgkIPp2Jm2ytqX07jlwYAJy9R8kwvBlaPDcNdE5NjhQMB/xBPjv1tZsD4hjQlsxvvNoUHwuSuwUX6uHkwFp1FuDutOkDcam5sHqNlaysy8/epQ/Co5TinTDFSvfMXGTGqYYCSrdt21S747cGNvWhddT7mO0ALDKAcFelNL3OgS6iyE5VpF8DY6j1590z2fdn0GllTpj9R8MF6W6CZEdWHKS50ilHZ brownie@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILQQZKB5vs6YOX3/4xNFM5SbG4tGHaTv/iBqd+Jtr8mh brownie@server1
--------------
-/home/captain/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC365BdJ/TRSqch6qOdHVAgSo7Hn+/x2tLrLHwLg1k/wGuEPTJxtSka8g4Tsk30jKpnfT/uABS6dhtUXKA+Z2LzG3vpEhnsokR2Y/mpA/hpnzrBjZ2djJQwq2hqkUh8NwpInAUL4gL9zletatk7xs/jUc2fWG/h1wF4wuWKLQIzlD+drBnGi6eKrU+42Yk9t8RIhyahEJLydI/S/BegYMLf0GFNDgt+QDdphY2GqChwhPvq/UqVQ03OTa9WSfrJ6uZMxkrG62h2hrvGKDsf8xzmDOydjPZel9SOmScmUcvWFrjFpe5apCeq2oGbjY1XgJACAptNhHDr92/ehyqQhJOV captain@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGnTOsDD4laQaJN3p1ZAWNpRvnfI0pUOZ1ogaQmut1Dk captain@server1
--------------
-/home/cindy/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCVMGGncyLq/yyVCNEN2yqpJSjLLoKl/+EU8Fhkmt9U+MLiKmPOsoxcMezxrsQh5puL+YjNENSdOvPM82bc9CcNhO6zNtadYvh+HkweFFslIPxR7Jgo1tSUxOLF6EqceVSPxZPUuJRexg2yTrn3RBUGLhane+NS3z4H3jAY7hLQ7KFtgIawkkzGuJHvJwYKimyFX1no2gj7IaSYnaQKikrimadj9fOxBqHOOT5GkpABYjqZuh69zXBeLNyribAcjNIQWpl7h19BG2Frc7lZhtGTGXYXp4sYqt1LmS3fJyeE41EZ0zlOcv47Oy4gKypsHIYTqqKW9GMrn9pJXBBw+nAB cindy@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPJ3IW11SQYYZ6RU6JoVEtrC9v8j7TQcDAmege342DSZ cindy@server1
--------------
-/home/dennis/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeowa2uYsL/JzzI1sUqH2abwjUav/kX6FXXRlGldWFpCfg1Yne3FUlcTz0sUyKBUanucIqh58TKoa2Ppn7aDBqpmKlEDmLxPao38METq8T0fsF50e/RwZ65X2wvrZAE5rWZ+n9fMIcRHLevhoATEs1IwevsGBc+dAXups5VpLJrVzbpVCnfG/h0DJHOyUKV+AL7kjQkE3YvempkjTvV+dcx4vc//r8sPu2okknoLxeGEwLg0y97paxNvaNnhs2whrj9IalKY87Xgt0bKQCcQWsIQbYC0HwxI5mGq5Rvlx3PUtT13EPzmJmqEzSUG9/zAdjnc9EfQCXtdjRPlPIWztr dennis@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGFyTWQvTwqjnDTIknnL03B7CR26nlDwjzWj4ubnEYQa dennis@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG4rT3vTt99Ox5kndS4HmgTrKBT8SKzhK4rhGkEVGlCI student@generic-vm
--------------
-/home/perrier/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGiGuV7JRHIeMQ0oo6uVejLDEaS+2NtmCOKevG2UoX8JS8d+soRLWOAtUxabUuR25A6TPXSQyYlvSSUTJ1DUK8TwjYtMClluz/E/XUj184TCsFpsrROmoQXZB0dioUNaPGoFfEgzbgjJwW5TrvkObSlLDpzGQNsGkU4+k2ch2F0vTm4UTpZ8E8hNP/MhIuhW7pSP62WvQ9vUXSi+gtbQsyYo03CXBgEDUUugAk3GksO4CLUSWwHkpZO8iTNzUqzWftfZyGk0+ySOWOB+N3Vc/duEOUs7oGXsl2fsEuURGDWh6nNvnoWjUxGzIMbyjInU1BFhSVVMB9/yq5HsOTMOej perrier@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMEsrknLLnfT1fC5LkPtiVdFOw0xpL39+vVWddaycqgo perrier@server1
--------------
-/home/remoteadmin/.ssh/authorized_keys
------------------------
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILQ9gKoD5LxU3XUiqHB0PfnSbYGNGnRd0CLR+hi5amQf steven@generic-vm
--------------
-/home/sandy/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgNPSBhu+Zh8W/zYprD16DxAKL0EJjfwqIDR21H2HvttgWJBdcR/9kfQlaR6JEFVuJAqo2ElefPEmNMSlz3NIMQUzsS/LH6QWyyqjsIJaE1JSHOJ91ihhcpZfrrucgegFsGPrOSxaEz9cIXrogdanDALb0Z78KDRoLpy/eYiayrQQTjU/Rg2FwcYVTCRlZM/F/cAjC5iIspWTJJbps7I4tZCgZUbBM9Cc2Oql2UEWPwF827K3lHzA16ZuTNFOnKMuVroWekjVKbhcZbiUSsubNu33Q2Kt2VTlgHlSBC7epvPCtv/BCJN21ktuRnaGUYa/hTeVn6OGPWh5j8Rh9IF8L sandy@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOjtZfWxjUalhfZ+61IBWahdqoX/BL2o4E9GCe1+r0Rv sandy@server1
--------------
-/home/scooter/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJIMN8iFtBRsFtv/yT4vv7pAFz7+WeLS+bMDVC1WeH1ZAmmHcEPhx47hkq/B92V4+JHVp/tycyk76H6d6QT10K7F8zvwG4g3Bf5V2Fd+wdzyNyNIsiAXwy5dDJ7jr6mhOKkyOrBMHRbIrXTNOEnB63RvscNfpjC4oJj4sH3DkJU5wz72fQJpYA0/0fDcd8ojV+0UdP+hywku1JoNI8kdiaA7tAKjKSp897e2ieWWFZnq1BeggnXEv0KPi/FyJ1CxUONvpa6NAG8sgVa1l00jyzsy3WEBe+BF/QWrpEA2tuXs6HcfzERXStANUSFt2QhhnKUbl7GxPWnKD6bF78iIJP scooter@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKN//R59oBvfrEECrEL6ByT5VJS7LsOiEKmmcAIBjEMm scooter@server1
--------------
-/home/snibbles/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWYshQ5hYVG8xCldUu6RYlI6SPi9M3OLA7Ipd5rR/y6ttO698xQ7idenLvWKdus2NsVNFHiO+pMTVTvyEABD1Pfka/WRHfGQZL7S8P/QJs0TzaMvVvLpiYwnizf551qK0KJLgyrv7t557HGiDWNJ6lzbVC3yRVJ7Y4ibifXr6SdlmfhFVOl5q1lpPFsg9u13VqBTNseX9LVgKnv7040UmOZHoBhwts5AtqHVygkPYVBuwETK1G2l7Zfkv3RLhRxFz9a+CrDckorpawgjBtBH6DP4MzVZs0SllLCDt4lCrTc+F2lewaG8pomEaDLprTnwpuZOYz4OgcTQ+slqn8dnVB snibbles@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFQonbvay7jMO4q9lPKabXwb8+q9iu2A5raMeZH0JckU snibbles@server1
--------------
-/home/tiger/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrFhtrt/dJVkErJ79mGu9FIMoprUVxj4/K9kQHEzvR7LpwVFoo9dvxKSFDhYCV4tpHSw2Rn5M2WRQfrwX6VUvIy8HBno4/XfSI6YOLGwkFcX80A6+GUrk44UXC4ud7/wPubXhEXWfInybS45MLlA0tByjaCo3ZSQ5vRszS+kTmjyVC7mgJ6/l7gI0wEinTjr/uZ5JTPm/cnISON5pqKirI6FqqC6IV4kydRNC7a9Ir6Tt/uDzcOPRh1YaAdxdj2KGJuauV6mh7n+0VAHtdIi4fo03kLxlWxJaQ+BezcU+G4j/eItNWd/DhOuj6kDCWsSgYhgEWZT8EofO+qD8/RNjh tiger@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEWoZPZuEbHZWy8kQ6KAQ4TKJ1iUEZdcPhag4VnU5rSm tiger@server1
--------------
-/home/yoda/.ssh/authorized_keys
------------------------
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDD4WuH6eL/z0Lno0Ohl4JUwRinWuzUQr/CspJGW11V9RM8Lhai2TUBWaanUb2gATHlUwIr87ZCmK7y15YXHEFVkKTVAX5AjWVdHrizhM/CG6K1KRdnpEd1YyeDOBv9Je9LcApGkI1lMQGMY/TJh9OSX7TNRUzOgmfZXd3KzJ++rPn4JtbFHkcXu6OMYJqh3f0isDuyk/5V4eAxnF/dZDWDAMFb9vobUkew6eopzpC63fi1GzjjuwONIGu1WPuHbHibK/UjznGNn0pwYvCB8i3csGn5G+gAUGRWArsgutM2ZK69RH28YjxLkeCrVhwaNaPg16ycackYTDtVs5sy4pbL yoda@server1
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBQUkaOmDHqrUxrxR36zyqsSrGqNvcBGELGWd0PrsZLz yoda@server1
--------------
-------------------------------
-
----assignment2.sh rerun--------------------------------------------------------------------
-Updating netplan configuration...
-Setting your new netplan configuration...
-Netplan configuration has been updated!
-Updating /etc/hosts...
-It seems like /etc/hosts already has the correct entry, no need to update.
-Installing Apache2...
-Hmm, it seems like Apache2 is already installed.
-Installing Squid...
-Hmm, it seems like Squid is already installed.
-Creating new user dennis...
-User dennis already exists!
-User dennis configured with SSH keys.
-Creating new user aubrey...
-User aubrey already exists!

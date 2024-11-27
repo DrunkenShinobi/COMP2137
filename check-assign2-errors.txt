@@ -1,9 +1,7 @@
 WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
 dpkg-preconfigure: unable to re-open stdin: No such file or directory
-/home/steven/makecontainers.sh: line 347: /home/steven/.ssh/known_hosts: Permission denied
-do_known_hosts: hostkeys_foreach: Permission denied
-Failed to add the host to the list of known hosts (/home/steven/.ssh/known_hosts).
-Failed to add the host to the list of known hosts (/home/steven/.ssh/known_hosts).
+Host server1-mgmt not found in /home/steven/.ssh/known_hosts
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
 grep: /etc/netplan/01-netcfg.yaml: No such file or directory
 sed: can't read /etc/netplan/01-netcfg.yaml: No such file or directory
 WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
@@ -16,19 +14,3 @@ debconf: falling back to frontend: Teletype
 dpkg-preconfigure: unable to re-open stdin: 
 Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable apache2
-debconf: unable to initialize frontend: Dialog
-debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
-debconf: falling back to frontend: Readline
-debconf: unable to initialize frontend: Readline
-debconf: (This frontend requires a controlling tty.)
-debconf: falling back to frontend: Teletype
-dpkg-preconfigure: unable to re-open stdin: 
-Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
-Executing: /lib/systemd/systemd-sysv-install enable squid
-WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
-Error: Command not found
-Error: Command not found
-Failed to add the host to the list of known hosts (/home/steven/.ssh/known_hosts).
-grep: /etc/netplan/01-netcfg.yaml: No such file or directory
-sed: can't read /etc/netplan/01-netcfg.yaml: No such file or directory
-WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
